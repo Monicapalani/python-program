@@ -1,9 +1,9 @@
 E={0,2,4,6,8}
 N={1,2,3,4,5}
-Print ("The Union E and N is: ", E|N )
-Print ("The Intersection E and N is: ", E&N )
-Print ("The Difference E and Nis: ", E-N )
-Print ("The Symmetric difference E and N is: ", E^N )
+Print ("The Union of E and N is: ", E|N )
+Print ("The Intersection of E and N is: ", E&N )
+Print ("The Difference of E and N is: ", E-N )
+Print ("The Symmetric difference of E and N is: ", E^N )
 
 
 
