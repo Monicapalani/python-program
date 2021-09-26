@@ -1,0 +1,4 @@
+Num 1=[12,-7,5,64,-14]
+Print ("Positive numbers in the list 1:",num 1)
+Num 2=[12,14,-9,3]
+Print ("Positive numbers in the list 2:",num 2)
