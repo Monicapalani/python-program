@@ -1,0 +1,12 @@
+!pip3 install torch==1.9.1+cu102 torchvision==0.10.1+cu102 torchaudio===0.9.1 -f https://download.pytorch.org/whl/torch_stable.html
+!pip install transformers
+
+from transfomer using pipeline #first line
+generator=pipeline ("text generator',model='EluetherAI/gpt-neo-2.78')#second line
+prompt="(what is the meaning of life)" # third line
+res=generator(prompt,max_length=100,do sample=true, temperature=0.9) #fouth line
+print(res[0]['text generator'])
+
+with open('gpttext.txt','w')as f:
+
+ f.writelines(res[0]['text generator'])
